@@ -1,1 +1,32 @@
-
+body {
+  font-family: sans-serif;
+  margin: 20px;
+  background: #f9f9f9;
+}
+h1 {
+  text-align: center;
+}
+.malla {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+.ramo {
+  margin: 6px 0;
+  padding: 8px;
+  background-color: pink;
+  border: 1px solid #aaa;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.ramo.aprobado {
+  background-color: purple;
+  color: white;
+  text-decoration: line-through;
+}
+.ramo.bloqueado {
+  background-color: #bbb;
+  color: #666;
+  cursor: not-allowed;
+}
