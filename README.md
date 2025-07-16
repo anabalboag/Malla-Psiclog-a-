@@ -1,1 +1,1 @@
-# Malla-Psiclog-a-
+# Malla de Psicolgía
